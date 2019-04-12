@@ -97,7 +97,7 @@ FileTransfer.prototype.upload = function(filePath, server, successCallback, erro
     argscheck.checkArgs('ssFFO*', 'FileTransfer.upload', arguments);
 
     // Check if target URL doesn't contain spaces. If contains, it should be escaped first
-    // (see https://github.com/apache/cordova-plugin-file-transfer/blob/master/doc/index.md#upload)
+    // (see https://github.com/apache/mes-plugin-file-transfer/blob/master/doc/index.md#upload)
     if (!checkURL(server)) {
         if (errorCallback) {
             errorCallback(new FileTransferError(FileTransferError.INVALID_URL_ERR, filePath, server));
@@ -225,7 +225,7 @@ FileTransfer.prototype.download = function(source, target, successCallback, erro
     argscheck.checkArgs('ssFF*', 'FileTransfer.download', arguments);
 
     // Check if target URL doesn't contain spaces. If contains, it should be escaped first
-    // (see https://github.com/apache/cordova-plugin-file-transfer/blob/master/doc/index.md#download)
+    // (see https://github.com/apache/mes-plugin-file-transfer/blob/master/doc/index.md#download)
     if (!checkURL(source)) {
         if (errorCallback) {
             errorCallback(new FileTransferError(FileTransferError.INVALID_URL_ERR, source, target));

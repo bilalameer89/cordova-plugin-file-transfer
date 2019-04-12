@@ -23,9 +23,9 @@ description: Upload and download files.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-file-transfer?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-file-transfer)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-file-transfer.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-file-transfer)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/mes-plugin-file-transfer?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/mes-plugin-file-transfer)|[![Build Status](https://travis-ci.org/apache/mes-plugin-file-transfer.svg?branch=master)](https://travis-ci.org/apache/mes-plugin-file-transfer)|
 
-# cordova-plugin-file-transfer
+# mes-plugin-file-transfer
 
 This plugin allows you to upload and download files.
 
@@ -49,7 +49,7 @@ With the new features introduced in [XMLHttpRequest](https://developer.mozilla.o
 ## Installation
 
 ```bash
-cordova plugin add cordova-plugin-file-transfer
+cordova plugin add mes-plugin-file-transfer
 ```
 
 ## Supported Platforms

@@ -52,8 +52,8 @@ module.exports = function(context) {
         var platformJsonFile = path.join(context.opts.projectRoot, 'platforms', context.opts.platforms[0], context.opts.platforms[0] + '.json');
         var platformJson = JSON.parse(fs.readFileSync(platformJsonFile, 'utf8'));
 
-        if (platformJson && platformJson.installed_plugins && platformJson.installed_plugins['cordova-plugin-file-transfer-tests'] && platformJson.installed_plugins['cordova-plugin-file-transfer-tests'].FILETRANSFER_SERVER_ADDRESS) {
-            return platformJson.installed_plugins['cordova-plugin-file-transfer-tests'].FILETRANSFER_SERVER_ADDRESS;
+        if (platformJson && platformJson.installed_plugins && platformJson.installed_plugins['mes-plugin-file-transfer-tests'] && platformJson.installed_plugins['mes-plugin-file-transfer-tests'].FILETRANSFER_SERVER_ADDRESS) {
+            return platformJson.installed_plugins['mes-plugin-file-transfer-tests'].FILETRANSFER_SERVER_ADDRESS;
         } else {
             return null;
         }

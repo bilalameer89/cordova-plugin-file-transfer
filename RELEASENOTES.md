@@ -129,7 +129,7 @@
 * Added option to allow for passing cookies automatically in the browser 
 
 ### 1.2.0 (Jun 17, 2015)
-* [CB-9128](https://issues.apache.org/jira/browse/CB-9128) cordova-plugin-file-transfer documentation translation: cordova-plugin-file-transfer
+* [CB-9128](https://issues.apache.org/jira/browse/CB-9128) mes-plugin-file-transfer documentation translation: mes-plugin-file-transfer
 * [CB-6503](https://issues.apache.org/jira/browse/CB-6503): Null pointer check for headers in upload (This closes #27)
 * [CB-6503](https://issues.apache.org/jira/browse/CB-6503): Allow payload content-types other than multipart/form-data to be used for upload
 * Fix NoSuchMethodException looking up cookies.
@@ -167,12 +167,12 @@
 * [CB-8654](https://issues.apache.org/jira/browse/CB-8654) Note WP8 download requests caching in docs
 * [CB-8590](https://issues.apache.org/jira/browse/CB-8590) (Windows) Fixed download.onprogress.lengthComputable
 * [CB-8566](https://issues.apache.org/jira/browse/CB-8566) Integrate TravisCI
-* [CB-8438](https://issues.apache.org/jira/browse/CB-8438) cordova-plugin-file-transfer documentation translation: cordova-plugin-file-transfer
+* [CB-8438](https://issues.apache.org/jira/browse/CB-8438) mes-plugin-file-transfer documentation translation: mes-plugin-file-transfer
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added package.json file
 * [CB-8495](https://issues.apache.org/jira/browse/CB-8495) Fixed wp8 and wp81 test failures
 * [CB-7957](https://issues.apache.org/jira/browse/CB-7957) Adds support for `browser` platform
 * [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and RELEASENOTES.md for release 0.5.0 (take 2)
-* Fixes typo, introduced in https://github.com/apache/cordova-plugin-file-transfer/commit/bc43b46
+* Fixes typo, introduced in https://github.com/apache/mes-plugin-file-transfer/commit/bc43b46
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Use File proxy to construct valid FileEntry for download success callback
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Removes excess path to native path conversion in download method
 * [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and RELEASENOTES.md for release 0.5.0
@@ -202,7 +202,7 @@
 * [CB-6900](https://issues.apache.org/jira/browse/CB-6900) fixed `spec.7` for **wp8**
 * [CB-7944](https://issues.apache.org/jira/browse/CB-7944) Pended unsupported auto tests for *Windows*
 * [CB-7977](https://issues.apache.org/jira/browse/CB-7977) Mention `deviceready` in plugin docs
-* [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-file-transfer documentation translation: cordova-plugin-file-transfer
+* [CB-7700](https://issues.apache.org/jira/browse/CB-7700) mes-plugin-file-transfer documentation translation: mes-plugin-file-transfer
 
 ### 0.4.7 (Oct 03, 2014)
 * Construct proper FileEntry with nativeURL property set
@@ -210,8 +210,8 @@
 * [CB-7529](https://issues.apache.org/jira/browse/CB-7529) Adds support for 'ms-appdata' URIs for windows
 
 ### 0.4.6 (Sep 17, 2014)
-* [CB-7471](https://issues.apache.org/jira/browse/CB-7471) cordova-plugin-file-transfer documentation translation
-* [CB-7249](https://issues.apache.org/jira/browse/CB-7249) cordova-plugin-file-transfer documentation translation
+* [CB-7471](https://issues.apache.org/jira/browse/CB-7471) mes-plugin-file-transfer documentation translation
+* [CB-7249](https://issues.apache.org/jira/browse/CB-7249) mes-plugin-file-transfer documentation translation
 * [CB-7423](https://issues.apache.org/jira/browse/CB-7423) fix spec28,29 lastProgressEvent not visible to afterEach function
 * Amazon related changes.
 * Remove dupe file windows+windows8 both use the same one
@@ -260,7 +260,7 @@
 * [CB-6422](https://issues.apache.org/jira/browse/CB-6422) [windows8] use cordova/exec/proxy
 * iOS: Fix error where files were not removed on abort
 * [CB-5175](https://issues.apache.org/jira/browse/CB-5175): [ios] CDVFileTransfer asynchronous download (Fixes #24)
-* [ios] Cast id references to NSURL to avoid compiler warnings (Fixes: apache/cordova-plugin-file-transfer#18)
+* [ios] Cast id references to NSURL to avoid compiler warnings (Fixes: apache/mes-plugin-file-transfer#18)
 * [CB-6212](https://issues.apache.org/jira/browse/CB-6212): [iOS] fix warnings compiled under arm64 64-bit
 * [CB-5762](https://issues.apache.org/jira/browse/CB-5762): [FireOS] android: Fix lengthComputable set wrong for gzip downloads
 * [CB-5631](https://issues.apache.org/jira/browse/CB-5631): [FireOS] Removed SimpleTrackingInputStream.read(byte[] buffer)

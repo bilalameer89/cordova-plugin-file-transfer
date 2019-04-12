@@ -178,7 +178,7 @@ exports.defineAutoTests = function () {
         };
 
         // according to documentation, wp8 does not support onProgress:
-        // https://github.com/apache/cordova-plugin-file-transfer/blob/master/doc/index.md#supported-platforms
+        // https://github.com/apache/mes-plugin-file-transfer/blob/master/doc/index.md#supported-platforms
         var wp8OnProgressHandler = function () {};
 
         var defaultOnProgressHandler = function (event) {
